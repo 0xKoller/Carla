@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <title>Carla Marandolo - CM Makeup</title>
+  </head>
+  <body>
+    <header class="col">
+      <nav>
+        <img src="" alt="" />
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="./src/pages/biography.html">Biografia</a></li>
+          <li><a href="">Cursos</a></li>
+          <li><a href="./src/pages/agency.html">Agencia</a></li>
+          <li><a href="">Novedades</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Artesana de Cejar</a></li>
+          <li><a href="./src/pages/contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="col content">
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+          <
+        </button>
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+              <img
+                class="carousel__image"
+                src="./src/images/home1.jpg"
+                alt=""
+              />
+            </li>
+            <li class="carousel__slide">
+              <img
+                class="carousel__image"
+                src="./src/images/home2.jpg"
+                alt=""
+              />
+            </li>
+            <li class="carousel__slide">
+              <img
+                class="carousel__image"
+                src="./src/images/home3.jpeg"
+                alt=""
+              />
+            </li>
+            <!-- <li class="carousel__slide">
+              <img src="./src/images/home4.jpeg" alt="" />
+            </li> -->
+          </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">></button>
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./src/js/carousel.js"></script>
+</html>
