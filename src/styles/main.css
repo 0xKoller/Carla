@@ -125,6 +125,13 @@ article.services {
     color: red;
     font-size: 1rem; }
 
+.portfolio {
+  grid-row: 1fr;
+  grid-auto-columns: 1fr; }
+  .portfolio img {
+    width: 100px;
+    height: 200px; }
+
 .contact {
   display: flex;
   flex-direction: row;
