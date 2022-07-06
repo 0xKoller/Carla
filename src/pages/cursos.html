@@ -4,24 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
     <title>Carla Marandolo - CM Makeup</title>
   </head>
   <body>
     <header class="col">
       <nav>
-        <img src="./src/images/logo.png" alt="" />
+        <img src="../images/logo.png" alt="" />
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="./src/pages/biography.html">Biografia</a></li>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="./biography.html">Biografia</a></li>
           <li><a href="">Cursos</a></li>
-          <li><a href="./src/pages/agency.html">Agencia</a></li>
+          <li><a href="./agency.html">Agencia</a></li>
           <li><a href="">Novedades</a></li>
-          <li><a href="./src/pages/portfolio.html">Portfolio</a></li>
-          <li>
-            <a href="./src/pages/artesana_cejas.html">Artesana de Cejas</a>
-          </li>
-          <li><a href="./src/pages/contact.html">Contacto</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./artesana_cejas.html">Artesana de Cejas</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
         </ul>
         <div class="social">
           <a href="https://www.instagram.com/cm_makeup_beauty/"
@@ -49,47 +47,54 @@
         </div>
       </nav>
     </header>
-    <main class="col content">
-      <div class="carousel">
-        <button class="carousel__button carousel__button--left is-hidden">
-          <
-        </button>
-        <div class="carousel__track-container">
-          <ul class="carousel__track">
-            <li class="carousel__slide current-slide">
-              <img
-                class="carousel__image"
-                src="./src/images/home1.jpg"
-                alt=""
-              />
-            </li>
-            <li class="carousel__slide">
-              <img
-                class="carousel__image"
-                src="./src/images/home2.jpg"
-                alt=""
-              />
-            </li>
-            <li class="carousel__slide">
-              <img
-                class="carousel__image"
-                src="./src/images/home3.jpeg"
-                alt=""
-              />
-            </li>
-            <!-- <li class="carousel__slide">
-              <img src="./src/images/home4.jpeg" alt="" />
-            </li> -->
-          </ul>
+    <main class="content col-2">
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <h2>Automaquillaje</h2>
+            <h5>Modalidad: Presencial</h5>
+            <h5>Duracion: 2-3 horas</h5>
+            <p>
+              Lo que verás en esta clase se adapta tanto a lo que desees
+              aprender como a lo que acordaremos juntas previa charla antes de
+              comenzar la clase. Para esta clase no necesitarás tener productos,
+              se proveera de todo lo necesario, pero recomiendo traer tus
+              productos, pero si no tienes espera a la clase.
+            </p>
+            <a href="./contact.html">Para mas info, mandame un mensaje!</a>
+          </div>
         </div>
-        <button class="carousel__button carousel__button--right">></button>
-        <div class="carousel__nav">
-          <button class="carousel__indicator current-slide"></button>
-          <button class="carousel__indicator"></button>
-          <button class="carousel__indicator"></button>
+        <div class="column">
+          <div class="card">
+            <h2>Cejas Perfectas</h2>
+            <h5>Modalidad: Presencial</h5>
+            <h5>Duracion: 3-5 horas</h5>
+            <p>
+              Lo que verás en esta clase se adapta tanto a lo que desees
+              aprender como a lo que acordaremos juntas previa charla antes de
+              comenzar la clase. Para esta clase no necesitarás tener productos,
+              se proveera de todo lo necesario, pero recomiendo traer tus
+              productos, pero si no tienes espera a la clase.
+            </p>
+            <a href="./contact.html">Para mas info, mandame un mensaje!</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>Perfeccionamiento Personalizados</h2>
+            <h5>Modalidad: Presencial</h5>
+            <h5>Duracion: A acordar</h5>
+            <p>
+              Lo que verás en esta clase se adapta tanto a lo que desees
+              aprender como a lo que acordaremos juntas previa charla antes de
+              comenzar la clase. Para esta clase no necesitarás tener productos,
+              se proveera de todo lo necesario, pero recomiendo traer tus
+              productos, pero si no tienes espera a la clase.
+            </p>
+            <a href="./contact.html">Para mas info, mandame un mensaje!</a>
+          </div>
         </div>
       </div>
     </main>
   </body>
-  <script src="./src/js/carousel.js"></script>
 </html>
