@@ -31,15 +31,49 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  a {
-    color: black;
-    &:hover {
-      color: red;
-    }
-    svg {
-      width: 20px;
-      height: 20px;
-    }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+a {
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    color: red;
+  }
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1vh;
+}
+
+h4 {
+  margin: 0;
+}
+
+.active {
+  color: red;
+}
+
+span {
+  width: auto;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    height: 1px;
+    width: 80%;
+    border-bottom: 4px solid red;
+    margin-top: 1.2em; /*move the border below the text*/
   }
 }
 
@@ -275,9 +309,18 @@ article.services {
   padding: 0 10px;
 }
 
+.column-2 {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
 /* Remove extra left and right margins, due to padding in columns */
 .row {
   margin: 0 -5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* Clear floats after the columns */
@@ -293,6 +336,10 @@ article.services {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
