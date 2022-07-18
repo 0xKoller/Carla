@@ -200,16 +200,17 @@ article.services {
         margin-right: 0.2vw; }
   .contact .form__data {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; }
     .contact .form__data input {
       border: 3px black solid;
       padding: 1vh;
-      margin: 0.5vh;
-      height: 50px; }
+      height: 50px;
+      width: 50%; }
   .contact .form__message {
     padding: 0;
     width: 100%;
-    margin: 0.5vh;
     display: flex; }
     .contact .form__message textarea {
       resize: none;
@@ -222,8 +223,7 @@ article.services {
     background-color: transparent;
     border: 3px black solid;
     height: 50px;
-    padding: 0;
-    margin: 0.5vh; }
+    padding: 0; }
 
 .title-link {
   display: flex;
