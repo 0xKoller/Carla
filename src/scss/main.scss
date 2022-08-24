@@ -197,6 +197,17 @@ section.bio {
   }
   &_info {
     margin-left: 5vw;
+    .row {
+      img {
+        height: 50vh;
+        width: auto;
+        margin: 1vw;
+        margin-top: 0;
+      }
+      .service {
+        height: 20vh;
+      }
+    }
   }
 }
 
@@ -207,7 +218,7 @@ p {
   text-align: justify;
 }
 // Agency
-article.services {
+.services {
   h5 {
     color: red;
     font-size: 1rem;
@@ -340,6 +351,7 @@ article.services {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  height: 600px;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */

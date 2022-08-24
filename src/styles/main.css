@@ -159,6 +159,13 @@ section.bio_title {
 
 section.bio_info {
   margin-left: 5vw; }
+  section.bio_info .row img {
+    height: 50vh;
+    width: auto;
+    margin: 1vw;
+    margin-top: 0; }
+  section.bio_info .row .service {
+    height: 20vh; }
 
 .info_text {
   width: 90%; }
@@ -166,9 +173,9 @@ section.bio_info {
 p {
   text-align: justify; }
 
-article.services {
+.services {
   font-size: 0.8rem; }
-  article.services h5 {
+  .services h5 {
     color: red;
     font-size: 1rem; }
 
@@ -271,7 +278,8 @@ article.services {
   min-height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  height: 600px; }
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
